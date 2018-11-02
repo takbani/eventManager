@@ -7,7 +7,7 @@ import { IEvent } from './shared';
 
 @Component({
     template: `<div>
-    <h1>Upcoming Speed dating events</h1>
+    <h1>Upcoming technology courses</h1>
     <hr/>
     <div class="row">
     <div *ngFor="let event of events" class="col-md-5">

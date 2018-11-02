@@ -32,15 +32,15 @@ export class EventService {
 const EVENTS:IEvent[] = [
   {
     id: 1,
-    name: 'Java',
+    name: 'Learn Angular',
     date: new Date('9/26/2036'),
     time: '10:00 am',
     price: 599.99,
     imageUrl: '/assets/images/angularconnect-shield.png',
     location: {
-      address: '54, Hills and Dales,',
-      city: 'Pune',
-      country: 'India'
+      address: 'Ben McDui, Bothwell Street,',
+      city: 'Glasgow',
+      country: 'UK'
     },
     sessions: [
       {
@@ -110,20 +110,20 @@ const EVENTS:IEvent[] = [
   },
   {
     id: 2,
-    name: 'Hyderabad Speed Dating (18-32)',
+    name: 'Learn Java',
     date: new Date('4/15/2037'),
     time: '9:00 am',
     price: 950.00,
     imageUrl: '/assets/images/ng-nl.png',
     location: {
-      address: 'The NG-NL Convention Center & Scuba Shop',
-      city: 'Amsterdam',
-      country: 'Netherlands'
+      address: 'Fourth floor, Glen Eagles, Bothwell Street,',
+      city: 'Glasgow',
+      country: 'UK'
     },
     sessions: [
       {
         id: 1,
-        name: "Testing Angular 4 Workshop",
+        name: "Java Lambdas",
         presenter: "Pascal Precht & Christoph Bergdorf",
         duration: 4,
         level: "Beginner",
@@ -135,21 +135,21 @@ const EVENTS:IEvent[] = [
       },
       {
         id: 2,
-        name: "Angular 4 and Firebase",
+        name: "Java Concurrency",
         presenter: "David East",
         duration: 3,
         level: "Intermediate",
-        abstract: `In this workshop, David East will show you how to use Angular with the new
+        abstract: `In this workshop, David East will show you how to use concurrency with the new
               ultra-real-time 5D Firebase back end, hosting platform, and wine recommendation engine.`,
         voters: ['bradgreen', 'igorminar', 'johnpapa']
       },
       {
         id: 3,
-        name: "Reading the Angular 4 Source",
+        name: "Java Collections",
         presenter: "Patrick Stapleton",
         duration: 2,
         level: "Intermediate",
-        abstract: `Angular 4's source code may be over 25 million lines of code, but it's really 
+        abstract: `Java's source code may be over 25 million lines of code, but it's really 
               a lot easier to read and understand then you may think. Patrick Stapleton will talk
               about his secretes for keeping up with the changes, and navigating around the code.`,
         voters: ['martinfowler']
@@ -170,7 +170,7 @@ const EVENTS:IEvent[] = [
   },
   {
     id: 3,
-    name: 'Bangalore Speed Dating (18-32)',
+    name: 'Machine Learning',
     date: new Date('5/4/2037'),
     time: '9:00 am',
     price: 759.00,
@@ -252,7 +252,7 @@ const EVENTS:IEvent[] = [
   },
   {
     id: 4,
-    name: 'Pune Speed Dating (32-50)',
+    name: 'Spring Boot',
     date: new Date('6/10/2037'),
     time: '8:00 am',
     price: 800.00,
@@ -301,7 +301,7 @@ const EVENTS:IEvent[] = [
   },
   {
     id: 5,
-    name: 'Hyderabad Speed Dating (32-50)',
+    name: 'Python',
     date: new Date('2/10/2037'),
     time: '9:00 am',
     price: 400.00,
