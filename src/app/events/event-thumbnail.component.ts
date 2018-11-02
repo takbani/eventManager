@@ -13,7 +13,7 @@ Time: {{even?.time}}
 <span *ngSwitchCase="'10:00 am'">(Late Start)</span>
 <span *ngSwitchDefault>(Normal Start)</span>
 </div>
-<div>Price: \${{even?.price}}</div>
+
 <div *ngIf="even?.location">
     <span>Location: {{even?.location?.address}}</span>
     <span class="pad-left">{{even?.location?.city}},{{even.location?.country}}</span>
